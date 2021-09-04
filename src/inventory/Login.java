@@ -22,19 +22,20 @@ public class Login extends JFrame {
 			label.setVerticalAlignment(JLabel.CENTER);
 			label.setHorizontalAlignment(JLabel.CENTER);
 			label.setFont(new Font("Times New Roman",Font.PLAIN,20));
-			label.setIconTextGap(12);
-			label.setBounds(420, 500, 400, 400);
+			label.setIconTextGap(10);
+//			label.setBounds(500, 40, 400, 400);
 			
 			
 			
 			this.setSize(600, 600);
 			this.getContentPane().setBackground(Color.cyan);
 			this.setTitle("Login Panel");
-			this.setLayout(null);
+//			this.setLayout(null);
 			ImageIcon image = new ImageIcon("LOGO.png");
 			this.setIconImage(image.getImage());
 			this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			this.setVisible(true);
 			this.add(label);
+			this.pack();
 		}
 }
