@@ -23,11 +23,11 @@ public class Login extends JFrame {
 			label.setHorizontalAlignment(JLabel.CENTER);
 			label.setFont(new Font("Times New Roman",Font.PLAIN,20));
 			label.setIconTextGap(12);
-			label.setBounds(300, 300, 300, 300);
+			label.setBounds(420, 500, 400, 400);
 			
 			
 			
-			this.setSize(600, 6000);
+			this.setSize(600, 600);
 			this.getContentPane().setBackground(Color.cyan);
 			this.setTitle("Login Panel");
 			this.setLayout(null);
